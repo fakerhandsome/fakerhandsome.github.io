@@ -11,7 +11,7 @@ title: Tools
 
 - [**Trello**](https://trello.com/b/0QeKClyr/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE)：个人项目进度
 
-### Power's Wiki
+### Miracle's Wiki
 
 - [**Trello**](https://trello.com/b/0QeKClyr/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE)：文章写作选题
 - [**VuePress**](https://vuepress.vuejs.org/zh/)：Vue 驱动的静态网站生成器，中文文档
@@ -78,6 +78,6 @@ ProjectName
 
 <br />
 
-> 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 文章作者：**Miracle Wu**  
+> 原文地址：<https://miracled.top>   
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。

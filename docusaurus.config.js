@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Power's Wiki",
+  title: "Miracle's Wiki",
   //titleDelimiter: "🦖", // Defaults to `|`
   tagline: "啥都玩的斜杠青年",
   url: "https://fakerhandsome.github.io",
@@ -61,7 +61,7 @@ module.exports = {
 
     hideableSidebar: false,
     navbar: {
-      title: "Power's Wiki",
+      title: "Miracle's Wiki",
       hideOnScroll: false,
       //style: 'primary',
       /*

@@ -25,6 +25,6 @@ git commit -m '删除了 target'  # 添加操作说明并提交
 
 <br />
 
-> 文章作者：**Power Lin**  
-> 原文地址：<https://wiki-power.com>  
+> 文章作者：**Miracle Wu**  
+> 原文地址：<https://miracled.top>    
 > 版权声明：文章采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 协议，转载请注明出处。
