@@ -1,3 +1,6 @@
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 module.exports = {
   title: "Miracle's Wiki",
   //titleDelimiter: "🦖", // Defaults to `|`
@@ -90,6 +93,17 @@ module.exports = {
       ],
     },
   },
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/gh/linyuxuanlin/Wiki_Docusaurus/static/katex/v0.12.0/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
+
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -98,8 +112,12 @@ module.exports = {
           //将文档设置成主页面 routeBasePath是主页面路径
           path: "./docs",
           routeBasePath: "/",
+         // showLastUpdateAuthor: true,
+          //showLastUpdateTime: true,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/fakerhandsome/fakerhandsome.github.io/',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
