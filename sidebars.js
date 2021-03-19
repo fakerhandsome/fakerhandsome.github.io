@@ -5,15 +5,15 @@ module.exports = {
       type: 'category',
       label: 'Java学习',
       items: [
-  
+         'Java的三大特性',
       ],
     },
 
     {
       type: 'category',
-      label: '队务管理',
+      label: '工具收集',
       items: [
-        //'团队公开知识库的搭建',
+        '电报开源情报工具汇总',
       ],
     },
     {
@@ -65,13 +65,6 @@ module.exports = {
       ],
     },
 
-
-    {
-      type: 'category',
-      label: '产品经理',
-      items: [
-      ],
-    },
     {
       type: 'category',
       label: '生活经历',

@@ -1,7 +1,7 @@
 module.exports = {
   title: "Miracle's Wiki",
   //titleDelimiter: "🦖", // Defaults to `|`
-  tagline: "啥都玩的斜杠青年",
+  tagline: "混吃等死不求上进的二货青年",
   url: "https://fakerhandsome.github.io",
   baseUrl: "/",
   onBrokenLinks: "warn",
@@ -26,7 +26,7 @@ module.exports = {
 
       //... other Algolia params
       prism: {
-        additionalLanguages: ['java'],
+        darkTheme: require("prism-react-renderer/themes/dracula"),
       },
     },
     
@@ -73,18 +73,18 @@ module.exports = {
       */
       items: [
         {
-          href: "https://wiki.wildwolf.tech/",
-          label: "队内知识库",
+          href: "https://github.com",
+          label: "Github",
           position: "right",
         },
         {
-          href: "http://digest.wiki-power.com/",
-          label: "书摘",
+          href: "https://wiki.wildwolf.tech/",
+          label: "知识库",
           position: "right",
         },
         {
           href: "https://nav.wiki-power.com/",
-          label: "友链 & 导航站",
+          label: "资源导航",
           position: "right",
         },
       ],
@@ -95,6 +95,8 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          //将文档设置成主页面 routeBasePath是主页面路径
+          path: "./docs",
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
