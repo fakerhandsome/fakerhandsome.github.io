@@ -5,7 +5,7 @@ module.exports = {
       type: 'category',
       label: 'Java学习',
       items: [
-         'Java的三大特性',
+         'SSM三层架构',
       ],
     },
 

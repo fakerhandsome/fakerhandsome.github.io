@@ -246,19 +246,16 @@ public class Demo01 {
 class Student {
     private String name;
     private int age;
-
     //定义构造器
     //无参
     public Student() {
 
     }
-
     //满参
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
-
 
     public String getName() {
         return name;
@@ -396,7 +393,6 @@ public void setName(String name){
 
   ```java
   new Student();
-  
   new Scanner(System.in);
   ```
 
@@ -717,7 +713,6 @@ public class Demo01 {
     }
 }
 
-
 class Animal {
     int num1 = 10;
     int num2 = 200;
@@ -727,8 +722,6 @@ class Animal {
 class Cat extends Animal {
     int num2 = 20;
     int age = 222;//成员变量
-
-
 
     public void show() {
         int age = 111;//局部变量
@@ -880,7 +873,6 @@ class Animal {
   }
 }
 
-
 class Cat extends Animal{
   //重写eat方法
   public void eat(){
@@ -918,7 +910,6 @@ public class Demo01 {
 
         Dog d = new Dog();
         d.eat();
-
     }
 }
 
@@ -1041,7 +1032,6 @@ public class Demo01 {
         Cat c3 = new Cat("蓝色","蓝猫",3);
         showCat(c3);//蓝猫:3:蓝色
 
-
     }
 
     public static void showCat(Cat c) {
@@ -1052,7 +1042,7 @@ public class Demo01 {
 class Animal {
     String name;
     int age;
-
+    
     public Animal() {
     }
 
