@@ -6,6 +6,9 @@ module.exports = {
       label: 'Java学习',
       items: [
          'SSM三层架构',
+         'Java语言概述',
+         'Java的三大特性',
+         'JVM与JAVA体系结构',
       ],
     },
 
@@ -20,6 +23,7 @@ module.exports = {
       type: 'category',
       label: 'Leecode面经',
       items: [
+         'Leecode01',
       ],
     },
 
